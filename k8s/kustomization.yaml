@@ -8,4 +8,4 @@ namespace: hello-gitops
 images:
 - name: hello-gitops
   newName: dmytrolopushanskyy/hello-gitops
-  newTag: 92b1392e6af944b99c6f3bd7cc6cb2805dbfbe93
+  newTag: 0c0ba230baf2ab31386f68fc581ac3dedc2e83ed
