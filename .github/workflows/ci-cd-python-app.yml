@@ -79,7 +79,7 @@ jobs:
     env:
       PROJECT_ID: ${{ secrets.GKE_PROJECT }}
       GKE_CLUSTER: hello-gitops    # TODO: update to cluster name
-      GKE_REGION: us-central1	   # TODO: update to cluster region
+      GKE_REGION: us-central1-c	   # TODO: update to cluster region
 
     steps:
     - name: Check out code
