@@ -152,7 +152,7 @@ jobs:
       uses: jakejarvis/wait-action@v0.1.1
       with:
         time: 600
-
+ 
     # REMOVE OLD DEPLOYMENT!!
     - name: Remove old namespace
       run: |
