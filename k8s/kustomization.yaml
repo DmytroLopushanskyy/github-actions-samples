@@ -8,4 +8,4 @@ namespace: python-app-blue
 images:
 - name: hello-gitops
   newName: dmytrolopushanskyy/hello-gitops
-  newTag: f7b37f59e494e1dcefc5235f74dfc128027ef555
+  newTag: 4c6c2cf15080708f270797f71943d5de3663bdc8
