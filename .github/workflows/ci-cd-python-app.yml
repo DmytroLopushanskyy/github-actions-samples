@@ -147,6 +147,11 @@ jobs:
     #- name: Deploy updated Kubernetes resources
     #  run: |
     #    kubectl apply -k k8s/
+    
+    - name: Wait 10 mins for blue/green deployment to be tested.
+      uses: jakejarvis/wait-action@v0.1.1
+      with:
+        time: 600
 
     # REMOVE OLD DEPLOYMENT!!
     - name: Remove old namespace
